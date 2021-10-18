@@ -4,9 +4,7 @@ close all
 %si va a caricare la tabella dove sono presenti le immagini da testare. La 
 %tabella deve avere una prima colonna dove è presente il nome del file. Il 
 %numero totale di colonne per la nostra applicazione sarà 25 e la tabella 
-%caricata è la stessa nei 4 script per la creazione delle matrici Nx6 ad
-%eccezione di questo, siccome sono stati rimosse 13 righe relative a frames
-%dove l'oggetto beckmann non era presente
+%caricata è la stessa nei 4 script per la creazione delle matrici Nx6.
 load('DemoCompletetbl_Beckmann');
 load ('yoloBeckmann.mat');
 testTbl=DemoCompletetbl;
